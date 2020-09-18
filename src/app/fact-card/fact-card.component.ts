@@ -1,17 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { FactCard } from './model/fact-card.model';
-
-import { factCard } from "./model/fact-card"
 
 @Component({
     selector: 'app-fact-card',
     templateUrl: './fact-card.component.html',
-    styleUrls: ['./fact-card.component.css']
+    styleUrls: ['./fact-card.component.scss']
 })
 
 export class FactCardComponent implements OnInit {
 
-    factCard = factCard
+    @Input() factCard: FactCard
 
     constructor() { }
 

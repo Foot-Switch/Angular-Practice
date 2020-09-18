@@ -13,6 +13,7 @@ import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { FactCardComponent } from './fact-card/fact-card.component';
+import { FactCardListComponent } from './fact-card-list/fact-card-list.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import { FactCardComponent } from './fact-card/fact-card.component';
     HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      { path: '', component: FactCardListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
@@ -35,7 +36,8 @@ import { FactCardComponent } from './fact-card/fact-card.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    FactCardComponent
+    FactCardComponent,
+    FactCardListComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
