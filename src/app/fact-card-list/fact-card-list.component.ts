@@ -4,7 +4,7 @@ import { factCards } from '../fact-card/model/fact-cards'
 @Component({
   selector: 'app-fact-card-list',
   templateUrl: './fact-card-list.component.html',
-  styleUrls: ['./fact-card-list.component.css']
+  styleUrls: ['./fact-card-list.component.scss']
 })
 export class FactCardListComponent implements OnInit {
 
