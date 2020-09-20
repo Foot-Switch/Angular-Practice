@@ -1,7 +1,8 @@
-<h2>Fact card</h2>
-
 <div *ngIf="factCard">
-    <h3>{{factCard.title}}</h3>
-    <h4>{{factCard.chapterName}}</h4>
-    <h4>{{factCard.numFacts}}</h4>
+  <img class="cover-picture" src={{factCard.coverPictureUrl}}/>
+  <div>
+    <span class="chapter-name">{{factCard.title}}</span>
+    <span class="title">{{factCard.chapterName}}</span>
+    <span class="num-facts">{{factCard.numFacts}} facts</span>
+  </div>
 </div>
