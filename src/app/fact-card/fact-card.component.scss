@@ -5,9 +5,17 @@
   width: 350px;
   border-radius: 5px;
 }
+
 .cover-picture {
+  display: inline-block;
   width: 75px;
   height: 75px;
+}
+
+.text-container {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: top;
 }
 
 .chapter-name {
@@ -28,6 +36,6 @@
   display: block;
   font-size: 12px;
   margin-top: 5px;
-  text-transform: uppercase;
   color: #2773BC;
+  text-transform: uppercase;
 }

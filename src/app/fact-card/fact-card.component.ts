@@ -15,4 +15,9 @@ export class FactCardComponent implements OnInit {
 
     ngOnInit() {
     }
+
+    formatFactCount(){
+      if (this.factCard.numFacts == 1) return "Fact"
+      else return "Facts"
+    }
 }

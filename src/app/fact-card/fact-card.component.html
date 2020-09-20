@@ -1,8 +1,8 @@
 <div *ngIf="factCard">
   <img class="cover-picture" src={{factCard.coverPictureUrl}}/>
-  <div>
-    <span class="chapter-name">{{factCard.title}}</span>
-    <span class="title">{{factCard.chapterName}}</span>
-    <span class="num-facts">{{factCard.numFacts}} facts</span>
+  <div class="text-container">
+    <span class="chapter-name">{{factCard.chapterName}}</span>
+    <span class="title">{{factCard.title}}</span>
+    <span class="num-facts">{{factCard.numFacts}} {{formatFactCount()}}</span>
   </div>
 </div>
