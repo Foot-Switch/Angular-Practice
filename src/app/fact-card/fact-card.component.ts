@@ -16,6 +16,9 @@ export class FactCardComponent implements OnInit {
     ngOnInit() {
     }
 
+    /**
+     * Formats the fact count suffix to singular or plural
+     */
     formatFactCount(){
       if (this.factCard.numFacts == 1) return "Fact"
       else return "Facts"
