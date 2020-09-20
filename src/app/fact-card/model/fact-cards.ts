@@ -1,8 +1,8 @@
 export const factCards = [
     {
         id: "1",
-        chapterName: "This is a fact card",
-        title: "Chapter one",
+        chapterName: "Chapter one",
+        title: "This is a fact card",
         numFacts: 1,
         coverPictureUrl: "https://i.picsum.photos/id/280/200/200.jpg?hmac=jjE26x23XLyRTL5st1-nb_BAHldv1V3JoFRn4g_nN04"
     },
