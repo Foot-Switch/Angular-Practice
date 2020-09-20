@@ -33,9 +33,15 @@
 }
 
 .num-facts {
-  display: block;
+  display: inline-block;
   font-size: 12px;
   margin-top: 5px;
   color: #2773BC;
   text-transform: uppercase;
+}
+
+.arrow-icon {
+  display: inline;
+  margin-left: 5px;
+  vertical-align: middle;
 }
