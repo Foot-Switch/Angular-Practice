@@ -1,5 +1,7 @@
 <div *ngIf="factCard">
-  <img class="cover-picture" src={{factCard.coverPictureUrl}}/>
+  <div class="cover-picture-container" *ngIf="factCard.coverPictureUrl">
+   <img class="cover-picture" src={{factCard.coverPictureUrl}}/>
+  </div>
   <div class="text-container">
     <span class="chapter-name">{{factCard.chapterName}}</span>
     <span class="title">{{factCard.title}}</span>
